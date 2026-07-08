@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #2e7d32, #66bb6a);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #c8e6c9;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 15px;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            width: 280px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero h2 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌱 Agro Forte</h1>
+    <p>O campo que alimenta o Brasil e impulsiona o futuro.</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#importancia">Importância</a>
+    <a href="#tecnologia">Tecnologia</a>
+</nav>
+
+<section class="hero">
+    <h2>Agro Forte, País Forte</h2>
+    <p>Produção, sustentabilidade e inovação caminhando juntas.</p>
+</section>
+
+<div class="container">
+
+    <section id="sobre">
+        <h2>Sobre o Agro</h2>
+        <p>
+            O agronegócio é um dos principais setores da economia brasileira,
+            responsável pela produção de alimentos, geração de empregos e
+            desenvolvimento sustentável no campo.
+        </p>
+    </section>
+
+    <br><br>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌾 Produção</h3>
+            <p>
+                O Brasil está entre os maiores produtores de grãos, carnes,
+                frutas e diversos alimentos consumidos no mundo.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚜 Tecnologia</h3>
+            <p>
+                Máquinas modernas, drones, sensores e inteligência artificial
+                tornam a agricultura mais eficiente e sustentável.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌍 Sustentabilidade</h3>
+            <p>
+                O uso responsável dos recursos naturais ajuda a preservar o meio
+                ambiente e garante alimentos para as futuras gerações.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 - Agro Forte | Desenvolvido em HTML e CSS.</p>
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #2e7d32, #66bb6a);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #c8e6c9;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 15px;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            width: 280px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero h2 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+   
